@@ -1,4 +1,9 @@
 .resize {
     height: 200px;
     width: auto;
+    
+}
+h1,
+figure {
+    text-align: center;   
 }
