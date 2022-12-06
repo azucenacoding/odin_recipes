@@ -1,9 +1,24 @@
-.resize {
-    height: 200px;
-    width: auto;
-    
+* {
+    margin: 0;
 }
+
+#resize {
+    height: 400px;
+    width: auto;
+
+}
+
+#body {
+    background-color: lightslategrey;
+}
+
 h1,
 figure {
-    text-align: center;   
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
 }
