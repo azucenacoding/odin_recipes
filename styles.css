@@ -1,21 +1,17 @@
 * {
     margin: 0;
+    color: lightslategrey;
 }
 
 #resize {
-    height: 400px;
+    height: 300px;
     width: auto;
-
-}
-
-#body {
-    background-color: lightslategrey;
+    border-radius: 20%;
 }
 
 h1,
 figure {
     text-align: center;
-    background-color: lightslategrey;
 }
 
 .caption {
