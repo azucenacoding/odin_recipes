@@ -10,6 +10,7 @@ body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
     background-color: rgb(73, 58, 171);
+    text-align: center;
 }
 
 h1 {
@@ -22,36 +23,60 @@ figure {
     font-size: 24px;
 }
 
-img {
-    width: 45%;
+figure img {
+    width: 38vh;
     margin: 0 auto;
-    padding: 0.8rem;
+    padding: 0.85em;
     display: flex;
     border-radius: 30%;
 }
 
 header {
-    text-align: center;
+    text-align: inherit;
     margin-bottom: 0;
 
 }
 
 .caption {
-    text-align: center;
     font-style: italic;
     font-size: 0.8em;
     color: #3f8efc;
 
 }
 
-a{
-    text-decoration: none;
-    color: rgb(239, 89, 72);
+li {
+    font-size: 2em;
+    margin: 5em;
+    display: inline-block;
 }
+
 
 ul {
     list-style-type: none;
+    padding: 0.1em;
+    margin: 0;
+    
 }
+
+a {
+    text-decoration: none;
+    color: rgb(239, 89, 72);
+    font-size: 25px;
+    width: 100%;
+   
+}
+
+
+
+a img {
+    width: 23vw;
+    /*margin-right: 20px; */
+    border: 3px solid black;
+    border-radius: 20%;
+    padding: 0.5em;
+    display: inherit;
+}
+
 
 /*
 
