@@ -16,6 +16,7 @@ body {
 h1 {
     margin-bottom: 0;
     color: #3f8efc;
+    font-style: italic;
 }
 
 figure {
@@ -44,65 +45,34 @@ header {
 
 }
 
-li {
-    font-size: 2em;
-    margin: 5em;
-    display: inline-block;
-}
-
-
-ul {
-    list-style-type: none;
-    padding: 0.1em;
-    margin: 0;
+a {
+    font-size: 20em;
+    width: 100%;
+    text-decoration: none;
     
 }
 
-a {
-    text-decoration: none;
-    color: rgb(239, 89, 72);
-    font-size: 25px;
-    width: 100%;
-   
+div {
+    display: inline-block;
 }
 
-
+.recipe-box {
+    margin: auto 1.2em;
+    
+}
 
 a img {
-    width: 23vw;
-    /*margin-right: 20px; */
+    width: 0.9em;
     border: 3px solid black;
     border-radius: 20%;
-    padding: 0.5em;
-    display: inherit;
+    padding: 0.15em;  
 }
 
 
-/*
-
-
-
-.caption {
-    font-size: 15px;
-    font-style: italic;
+a img:hover {
+    background-color:rgb(43, 75, 217)
 }
 
-body {
-    text-align: center;
-    background-color: steelblue;
-    font-family: 'Rubik', sans-serif;
-}
 
-ul {
-    list-style-type: none;
-    padding-top: 10px;
 
-}
 
-a {
-    text-decoration: none;
-    color: salmon;
-    text-align: center;
-}
-
-/*
